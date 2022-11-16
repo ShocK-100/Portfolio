@@ -4,22 +4,9 @@ $(document).ready(() => {
     $("header").toggleClass("toggle");
   });
 
-  let navigationItem = $("header")
-    .find(".navbar")
-    .find("ul")
-    .find("li")
-    .find("a");
-
-  navigationItem.click(function (e) {
-    navigationItem.each(function () {
-      console.log($(this));
-      $(this).removeClass("toggle-nav-item");
-    });
-    let navID = e.target.id;
-    navigationItem
-      .parent()
-      .find("#" + `${navID}`)
-      .toggleClass("toggle-nav-item");
+  $(".nav-item").click(function (e) {
+    $(".nav-item").removeClass("toggle-nav-item");
+    $("#" + `${e.target.id}`).toggleClass("toggle-nav-item");
   });
 });
 

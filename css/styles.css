@@ -166,6 +166,11 @@ header .navbar ul li a:hover {
 .home h1 {
   font-size: 5rem;
   color: #fff;
+  text-transform: none;
+}
+
+.home p {
+  text-transform: none;
 }
 
 .home h1 span {
@@ -238,7 +243,7 @@ header .navbar ul li a:hover {
 
 .education .box-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem 0;
@@ -265,12 +270,14 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #fff;
   padding-top: 1.5rem;
+  text-transform: none;
 }
 
 .education .box-container .box p {
   font-size: 1.4rem;
   color: #eee;
   padding-top: 1rem 0;
+  text-transform: none;
 }
 
 .education .box-container .box i {
@@ -383,7 +390,14 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
   padding-right: 1rem;
   color: var(--yellow);
-  /* text-transform: lowercase; */
+}
+
+.top {
+  position: fixed;
+  bottom: 7.5rem;
+  right: 2rem;
+  z-index: 100;
+  display: none;
 }
 /* media queries */
 

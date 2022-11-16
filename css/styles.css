@@ -352,11 +352,14 @@ h1 {
 
 .portfolio .box-container .box {
   height: 20rem;
-  width: 26rem;
+  width: 100rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio .box-container .box img {
@@ -365,10 +368,21 @@ h1 {
   object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img {
+.portfolio .box-container .box img:hover {
   transform: scale(1.2);
 }
 
+.portfolio .box-container .box p {
+  font-size: 2.4rem;
+  color: white;
+  margin: 3.5rem;
+  text-transform: none;
+}
+
+.portfolio .box-container .box .project-link strong {
+  text-transform: none;
+  text-decoration: underline;
+}
 .contact .heading {
   color: #fff;
 }
@@ -453,6 +467,10 @@ h1 {
   .home {
     padding: 1rem 4rem;
   }
+
+  .portfolio .box-container .box p {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -476,6 +494,10 @@ h1 {
 @media (max-width: 768px) {
   html {
     font-size: 50%;
+  }
+
+  .portfolio .box-container .box p {
+    font-size: 1.6rem;
   }
 }
 
@@ -502,5 +524,10 @@ h1 {
 
   .contact .row form {
     margin: 3rem 0;
+  }
+
+  .portfolio .box-container .box p {
+    margin: 2.5rem;
+    font-size: 1.5rem;
   }
 }

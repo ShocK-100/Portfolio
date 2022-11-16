@@ -136,7 +136,7 @@ header .navbar ul li a {
 header .navbar ul li a:hover {
   background: #f9cb2446;
 }
-header .navbar ul li .toggle-nav-item {
+header .navbar ul li .toggled-nav-item {
   background: var(--yellow);
 }
 

@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/a33836da4f.js"
       crossorigin="anonymous"
@@ -18,7 +22,7 @@
   </head>
   <body>
     <!-- header section starts -->
-    <header>
+    <header class="animate__animated animate__fadeInLeft">
       <div class="user">
         <img src="/images/me.jpg" alt="" />
         <h3 class="name">Tal Zvi</h3>
@@ -38,7 +42,7 @@
     <div id="menu" class="fas fa-bars"></div>
 
     <!-- home starts here -->
-    <section class="home" id="home">
+    <section class="home animate__animated animate__fadeIn" id="home">
       <h3>Hi there! <span class="wave">👋</span></h3>
       <h1>My name is <span>Tal Zvi</span></h1>
       <p>I'm a Full Stack Software Engineer</p>
@@ -72,14 +76,14 @@
             <span>5+</span>
             <h3>projects completed</h3>
           </div>
-          <div class="box">
+          <!-- <div class="box">
             <span>num</span>
             <h3>description</h3>
           </div>
           <div class="box">
             <span>num</span>
             <h3>description</h3>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -170,8 +174,9 @@
             <strong>Smart Brain</strong> is a face-recognition app. Using deep
             learning model from an API, the app detects the face in the
             picture.It receives a picture as an input, detects a face if exists
-            and draws a rectangle around it. This app was build using the
-            technology stack mentioned above.
+            and draws a rectangle around it. <br /><strong
+              >Technologies: </strong
+            >React, Node.js, Express.js, Redux, JavaScript, HTML5, CSS3
             <a
               class="project-link"
               href="https://smart-brain-amazing-app.herokuapp.com/"

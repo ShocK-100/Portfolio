@@ -326,7 +326,6 @@ h1 {
 
 .education .box-container .box i {
   position: absolute;
-  top: -1.5rem;
   left: -2.5rem;
   height: 5rem;
   width: 5rem;
@@ -373,7 +372,7 @@ h1 {
 }
 
 .portfolio .box-container .box p {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: white;
   margin: 3.5rem;
   text-transform: none;
@@ -528,6 +527,6 @@ h1 {
 
   .portfolio .box-container .box p {
     margin: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

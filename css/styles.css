@@ -273,6 +273,14 @@ h1 {
   margin: 2rem;
 }
 
+.about .row .counter .experience-box {
+  cursor: pointer;
+}
+
+.about .row .counter .experience-box:hover {
+  transform: scale(1.2);
+}
+
 .about .row .counter .box span {
   font-size: 4rem;
   color: var(--yellow);

@@ -1,4 +1,4 @@
-let numOfHeaderItems;
+// let numOfHeaderItems;
 let lastNavIDClicked;
 
 $(document).ready(() => {
@@ -16,8 +16,19 @@ $(document).ready(() => {
     lastNavIDClicked = e.target.id;
   });
 
-  numOfHeaderItems = $(".nav-item").length;
-  numOfHeaderItems--;
+  // numOfHeaderItems = $(".nav-item").length;
+  // numOfHeaderItems--;
+
+  $(".experience-box").click(function () {
+    console.log("s");
+    $("html, body").animate(
+      {
+        scrollTop: $("#experience").offset().top,
+      },
+      500,
+      "linear"
+    );
+  });
 });
 
 $(window).on("scroll load", function () {

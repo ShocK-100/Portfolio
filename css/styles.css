@@ -557,7 +557,7 @@ h1 {
   }
 
   .experience .work-box .work-row h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .experience .work-box .work-row {
@@ -600,5 +600,13 @@ h1 {
 
   .experience .work-box .work-row .work-row-description ul li ul {
     padding: 0.5rem;
+  }
+
+  .experience .work-box .work-row h4 {
+    padding: 0;
+  }
+
+  .experience .work-box .work-row .work-row-description ul li {
+    padding: 0.2rem 0;
   }
 }

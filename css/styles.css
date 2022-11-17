@@ -283,16 +283,18 @@ h1 {
   color: #fff;
 }
 
-.experience {
-  /* padding: 10rem 0; */
-}
-
 .experience .heading {
   margin-bottom: 5rem;
+  color: #fff;
+}
+
+.experience .heading span {
+  color: var(--yellow);
 }
 
 .experience .work-box .work-row {
   margin-left: 10rem;
+  color: #eee;
 }
 
 .experience .work-box .work-row h4 {

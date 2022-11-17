@@ -196,7 +196,6 @@ header .navbar ul li a:hover {
   }
 }
 
-/* For demonstration purposes only: */
 body {
   font-size: 3.5em;
 }
@@ -282,6 +281,38 @@ h1 {
 .about .row .counter .box h3 {
   font-size: 2rem;
   color: #fff;
+}
+
+.experience {
+  /* padding: 10rem 0; */
+}
+
+.experience .heading {
+  margin-bottom: 5rem;
+}
+
+.experience .work-box .work-row {
+  margin-left: 10rem;
+}
+
+.experience .work-box .work-row h4 {
+  text-transform: none;
+  padding: 1rem 0;
+}
+
+.experience .work-box .work-row .work-row-description ul {
+  margin-left: 4rem;
+}
+
+.experience .work-box .work-row .work-row-description ul li {
+  list-style-type: circle;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  text-transform: none;
+}
+
+.experience .work-box .work-row .work-row-description ul li ul {
+  padding: 1rem;
 }
 
 .education .heading {
@@ -522,6 +553,18 @@ h1 {
   .home h1 {
     font-size: 4.5rem;
   }
+
+  .experience .work-box .work-row h4 {
+    font-size: 1.4rem;
+  }
+
+  .experience .work-box .work-row {
+    margin-left: 4rem;
+  }
+
+  .experience .heading {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -551,5 +594,9 @@ h1 {
 
   .portfolio .box-container .box p {
     margin: 2.5rem;
+  }
+
+  .experience .work-box .work-row .work-row-description ul li ul {
+    padding: 0.5rem;
   }
 }

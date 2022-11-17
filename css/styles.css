@@ -134,11 +134,11 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-  background: #f9cb2446;
-}
-header .navbar ul li .toggled-nav-item {
   background: var(--yellow);
 }
+/* header .navbar ul li .toggled-nav-item {
+  background: var(--yellow);
+} */
 
 #menu {
   position: fixed;
@@ -483,7 +483,7 @@ h1 {
     display: block;
   }
 
-  header.toggle {
+  header.hidden {
     left: 0%;
   }
 
@@ -500,6 +500,10 @@ h1 {
 
   .portfolio .box-container .box p {
     font-size: 1.6rem;
+  }
+
+  .home h1 {
+    font-size: 4.5rem;
   }
 }
 

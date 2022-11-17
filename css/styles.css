@@ -362,6 +362,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: fit-content;
 }
 
 .portfolio .box-container .box img {
@@ -375,7 +376,7 @@ h1 {
 }
 
 .portfolio .box-container .box p {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   color: white;
   margin: 3.5rem;
   text-transform: none;
@@ -493,10 +494,6 @@ h1 {
   .home {
     padding: 1rem 4rem;
   }
-
-  .portfolio .box-container .box p {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 991px) {
@@ -520,10 +517,6 @@ h1 {
 @media (max-width: 768px) {
   html {
     font-size: 50%;
-  }
-
-  .portfolio .box-container .box p {
-    font-size: 1.6rem;
   }
 
   .home h1 {
@@ -558,6 +551,5 @@ h1 {
 
   .portfolio .box-container .box p {
     margin: 2.5rem;
-    font-size: 0.9rem;
   }
 }

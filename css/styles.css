@@ -300,6 +300,7 @@ h1 {
 .experience .work-box .work-row h4 {
   text-transform: none;
   padding: 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .experience .work-box .work-row .work-row-description ul {

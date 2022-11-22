@@ -1,7 +1,7 @@
 # Portfolio Website
 A fully responsive website for displaying one's portfolio and background information.
 
-This website was developed using JavaScript, jQuery, HTML5, CSS3
+This website was developed using JavaScript, jQuery, HTML5, CSS3 and deployed to Netlify
 
 **Desktop Preview:**
 
